@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 26px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  vertical-align: middle;
+}
+
+.topnav a:hover {
+  color: #0b7dda;
+}
+
+.topnav a.active {
+  color: #105C96;
+}
+
+.space {
+  margin: 60px 0px;
+}
+
+.slider-bg {
+  background-color: #105C96;
+}
+.center {
+  margin: auto;
+  color: #fff;
+}
+
+H2 {
+  color: #BC2026;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form.example input[type=text] {
+  padding: 4px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 10px 0px 0px 10px;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 8px;
+  background: #bc2026;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 0px 10px 10px 0px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.form input[type=text]{
+  padding: 4px;
+  margin: 5px;
+  font-size: 17px;
+  border: 1px solid grey;
+  background: #DAF7FB63;
+  width:100%;
+  color:#000;
+}
+.btn {
+  text-align: center;
+  width: 100%;
+  border: 1px solid #0b7dda;
+}
+
+.catbg {
+  background: #F1FCFD;
+  padding: 5px ;
+  border-radius: 50px;
+}
+button {
+  background: #bc2026;
+  color: #fff;
+  margin: auto;
+  width: 100%;
+}
+.why {
+  border: 2px solid #105C96;
+  border-radius: 5px;
+}
+.service {
+  border: 1px solid black;
+  box-shadow: 5px 5px #105C96;
+  margin: 10px;
+}
