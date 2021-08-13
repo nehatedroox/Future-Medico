@@ -23,6 +23,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       />
       <script src="assets/main.js"></script>
+
       <!--bootstrap slider css Start -->
       <link
         rel="stylesheet"
@@ -30,6 +31,11 @@
       />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      />
     </head>
     <body>
       <!-- Navbar Start -->
@@ -53,7 +59,7 @@
         </div>
       </div>
 
-      <!-- new slider part added--------------------->
+      <!-- Image slider part added--------------------->
 
       <div>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -137,8 +143,25 @@
         </div>
       </div>
 
-      <!-- Image slider ended------------------------------>
-      <div class="container" style="height: 1320px">
+      <!-- Search bar ------------------------------------->
+
+      <div class="wrapper">
+        <div class="search-input">
+          <a href="" target="_blank" hidden></a>
+          <input type="text" placeholder="Type to search.." />
+          <div class="autocom-box">
+            <!-- here list are inserted from javascript -->
+          </div>
+          <div class="icon"><i class="fas fa-search"></i></div>
+        </div>
+      </div>
+
+      <script src="js/suggestions.js"></script>
+      <script src="js/script.js"></script>
+
+      <!-- Search bar ended------------------------------>
+
+      <div class="container" style="height: 4020px">
         <div>
           <h2>TOP COLLEGES</h2>
           <div class="row">
