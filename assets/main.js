@@ -64,3 +64,9 @@ function ajax(method, url, data, success, error) {
   };
   xhr.send(data);
 }
+
+//connect one page to another
+
+$(function () {
+  $(".divID").load("About.html");
+});
