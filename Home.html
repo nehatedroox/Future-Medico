@@ -1,285 +1,481 @@
 <DOCTYPE html!>
-<html>
+  <html>
     <head>
-    	<title>Future Medico</title>
-    	<meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
-    	<link href="assets/css/home.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="assets/main.js"></script>
+      <title>Future Medico</title>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width" />
+      <meta
+        name="viewport"
+        content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width"
+      />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link href="assets/css/home.css" rel="stylesheet" />
+      <link href="assets/css/search.css" rel="stylesheet" />
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <script src="assets/main.js"></script>
+
+      <!--bootstrap slider css Start -->
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      />
     </head>
     <body>
-    	<!-- Navbar Start -->
-        <div class="container">
-            <div class="topnav">
-                <div class="row">
-                    <div class="col-lg-2">
-                        <img src="assets/img/home/logo.png" width="50%">
-                    </div>
-                    <div class="col-lg-10">
-                        <a class="active" href="Home.html">Home</a>
-                        <a href="#news">About</a>
-                        <a href="#contact">Services</a>
-                        <a href="#contact">Courses</a>
-                        <a href="#about">Top Colleges</a>
-                        <a href="#about">Resources</a>
-                        <a href="#about">Exams</a>
-                        <a href="#about">Contact</a>
-                    </div>
-                </div>
+      <!-- Navbar Start -->
+      <div>
+        <div class="topnav">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/img/home/logo.png" width="50%" />
             </div>
-        </div>
-        <div class="slider-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 center">
-                        <h4>Be the Master of your Own Fate! It’s time you choose your dream medical career</h4>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="assets/img/home/slide1.png">
-                    </div>
-                </div>
+            <div class="col-lg-10">
+              <a class="active" href="Home.html">Home</a>
+              <a href="#news">About</a>
+              <a href="#contact">Services</a>
+              <a href="#contact">Courses</a>
+              <a href="#about">Top Colleges</a>
+              <a href="#about">Resources</a>
+              <a href="#about">Exams</a>
+              <a href="#about">Contact</a>
             </div>
+          </div>
         </div>
-		<!-- Navbar End -->
+      </div>
+
+      <!-- Image slider part added--------------------->
+
+      <div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="row" style="background-color: #105c96">
+                <div class="col-lg-6 center">
+                  <h4 class="slider-heading">
+                    Be the Master of your Own Fate! It’s time you choose your
+                    dream medical career
+                  </h4>
+                </div>
+                <div class="col-lg-6">
+                  <img
+                    src="assets/img/home/slide1.png"
+                    alt="Los Angeles"
+                    style="width: 100%"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="row" style="background-color: #105c96">
+                <div class="col-lg-6 center">
+                  <h4 class="slider-heading">
+                    Be the Master of your Own Fate! It’s time you choose your
+                    dream medical career
+                  </h4>
+                </div>
+                <div class="col-lg-6">
+                  <img
+                    src="assets/img/home/Future_medico123.png"
+                    alt="Los Angeles"
+                    style="width: 100%"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="row" style="background-color: #105c96">
+                <div class="col-lg-6 center">
+                  <h4 class="slider-heading">
+                    Be the Master of your Own Fate! It’s time you choose your
+                    dream medical career
+                  </h4>
+                </div>
+                <div class="col-lg-6">
+                  <img
+                    src="assets/img/home/slide1.png"
+                    alt="Los Angeles"
+                    style="width: 100%"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="right carousel-control"
+            href="#myCarousel"
+            data-slide="next"
+          >
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Search bar ------------------------------------->
+
+      <div class="wrapper">
+        <div class="search-input">
+          <a href="" target="_blank" hidden></a>
+          <input type="text" placeholder="Type to search.." />
+          <div class="autocom-box">
+            <!-- here list are inserted from javascript -->
+          </div>
+          <div class="icon"><i class="fas fa-search"></i></div>
+        </div>
+      </div>
+
+      <script src="js/suggestions.js"></script>
+      <script src="js/script.js"></script>
+
+      <!-- Search bar ended------------------------------>
+
+      <div class="container" style="height: 4020px">
+        <div>
+          <h2>TOP COLLEGES</h2>
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="assets/img/home/national.png" width="100%" />
+              <h6>
+                National Institute of Mental Health & Neuro Sciences – Bangalore
+              </h6>
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/img/home/kasturba.png" width="100%" />
+              <h6>Kasturba Medical College – Manipal</h6>
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/img/home/st.jhon.png" width="100%" />
+              <h6>St. John's Medical College – Bangalore</h6>
+            </div>
+          </div>
+        </div>
         <div class="space">
-            <form class="example" action="/action_page.php" style="margin:auto; width:50%">
-                <input type="text" placeholder="Search.." name="search2">
-                <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
+          <h2>IMPORTANT DATA</h2>
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="assets/img/home/ranking.png" max-width="50%" />
+              <h6>Medical Ranking</h6>
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/img/home/colleges.png" max-width="50%" />
+              <h6>Medical Colleges</h6>
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/img/home/exams.png" max-width="50%" />
+              <h6>Medical Exams</h6>
+            </div>
+          </div>
         </div>
-        <div class="container">
-            <div>
-                <h2>TOP COLLEGES</h2>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img src="assets/img/home/national.png" width="100%">
-                        <h6>National Institute of Mental Health & Neuro Sciences – Bangalore</h6>
+        <div class="space">
+          <div class="row">
+            <div class="col-lg-4">
+              <h5>Counceling From Experts</h5>
+              <section>
+                <div
+                  class="container"
+                  style="width: 350px; padding: 40px; height: 474px"
+                >
+                  <form
+                    action="https://formspree.io/f/mqkwgzpl"
+                    method="POST"
+                    id="my-form"
+                  >
+                    <div class="form-group">
+                      <label for="firstName"> First Name</label>
+                      <input type="text" id="firstName" name="firstName" />
                     </div>
-                    <div class="col-lg-4">
-                        <img src="assets/img/home/kasturba.png" width="100%">
-                        <h6>Kasturba Medical College – Manipal</h6>
+
+                    <div class="form-group">
+                      <label for="latsName">Last Name</label>
+                      <input type="text" id="lastName" name="lastName" />
                     </div>
-                    <div class="col-lg-4">
-                        <img src="assets/img/home/st.jhon.png" width="100%">
-                        <h6>St. John's Medical College – Bangalore </h6>
+
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" />
                     </div>
+
+                    <div class="form-group">
+                      <label for="massage">Massage</label>
+                      <textarea
+                        name="massage"
+                        id="massage"
+                        cols="30"
+                        rows="10"
+                      ></textarea>
+                    </div>
+
+                    <button type="submit">APPLY</button>
+                  </form>
                 </div>
+                <div id="status"></div>
+              </section>
             </div>
-            <div class="space">
-                <h2>IMPORTANT DATA</h2>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img src="assets/img/home/ranking.png" max-width="50%">
-                        <h6>Medical Ranking</h6>
-                    </div>
-                    <div class="col-lg-4">
-                        <img src="assets/img/home/colleges.png" max-width="50%">
-                        <h6>Medical Colleges</h6>
-                    </div>
-                    <div class="col-lg-4">
-                        <img src="assets/img/home/exams.png" max-width="50%">
-                        <h6>Medical Exams</h6>
-                    </div>
-                </div>
+            <div class="col-lg-8">
+              <h5>Watch Latest Video</h5>
+              <video width="100%" controls height="474px">
+                <source src="mov_bbb.mp4" type="video/mp4" />
+                <source src="mov_bbb.ogg" type="video/ogg" />
+                Your browser does not support HTML video.
+              </video>
             </div>
-            <div class="space">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h5>Counceling From Experts</h5>
-                        <form class="form" action="/action_page.php">
-                            <input type="text" name="fname" placeholder="Name"><br>
-                            <input type="text" name="number" placeholder="Number"><br>
-                            <input type="text" name="email" placeholder="Email"><br>
-                            <input type="text" name="branch" placeholder="Branch">
-                            <input type="text" name="message" placeholder="message"><br>
-                            <input  class="btn" type="submit" value="Submit">
-                        </form> 
-                    </div>
-                    <div class="col-lg-6">
-                        <h5>Watch Latest Video</h5>
-                        <video width="100%" controls>
-                            <source src="mov_bbb.mp4" type="video/mp4">
-                            <source src="mov_bbb.ogg" type="video/ogg">
-                            Your browser does not support HTML video.
-                        </video>
-                    </div>
-                </div>
-            </div>
-            <div class="space">
-                <h2>TOP CATEGORIES</h2>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <div class="catbg">
-                                    <img src="assets/img/home/mbbs.png" width="80%">
-                                    <h6>MBBS</h6>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="catbg">
-                                    <img src="assets/img/home/bds.png" width="80%">
-                                    <h6>BDS</h6>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="catbg">
-                                    <img src="assets/img/home/bpharma.png" width="80%">
-                                    <h6>BPharma</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row space">
-                            <div class="col-lg-4">
-                                <div class="catbg">
-                                    <img src="assets/img/home/bsc nursing.png" width="50%">
-                                    <h6>BSc.Nursing</h6>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="catbg">
-                                    <img src="assets/img/home/bvsc.png" width="50%">
-                                    <h6>B.V.Sc & AH</h6>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="catbg">
-                                    <img src="assets/img/home/mbbs.png" width="50%">
-                                    <h6>Medical Allied</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3">
-            
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="catbg">
-                                    <img src="assets/img/home/bums.png" width="80%">
-                                    <h6>BUMS</h6>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="catbg">
-                                    <img src="assets/img/home/bpt.png" width="80%">
-                                    <h6>BPT</h6>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="catbg">
-                                    <img src="assets/img/home/bhms.png" width="80%">
-                                    <h6>BHMS</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="assets/img/home/cate.png">
-                    </div>
-                </div>
-            </div>
-            <div class="space">
-                <h2>FEATURED COLLEGES</h2>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img src="assets/img/home/ms ramaiah.png" width="100%">
-                        <h6>M. S. Ramaiah Medical College</h6>
-                    </div>
-                    <div class="col-lg-4">
-                        <img src="assets/img/home/bgs.png" width="100%">
-                        <h6>BGS Global Institute of Medical Sciences</h6>
-                    </div>
-                    <div class="col-lg-4">
-                        <img src="assets/img/home/national.png" width="100%">
-                        <h6>Vydehi Institute of Medical Sciences and Research Centre</h6>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img src="assets/img/home/bangalore medical college.png" width="100%">
-                        <h6>Bangalore Medical College & Research Institute</h6>
-                    </div>
-                    <div class="col-lg-4">
-                        <img src="assets/img/home/kempogowda.png" width="100%">
-                        <h6>Kempegowda Institute of Medical Science</h6>
-                    </div>
-                    <div class="col-lg-4">
-                        <img src="assets/img/home/dr.ambedkar.png" width="100%">
-                        <h6>Dr. Ambedkar Medical College</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="space">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <img src="assets/img/home/news.png" width="80%">
-                    </div>
-                    <div class="col-lg-6">
-                        <h5>Latest News and Notification</h5>
-                        <h6>Upcoming Exam Dates</h6>
-                        <ul>
-                            <li><marquee>News : Last date for submission of completed application online was 11:59 PM of 3rd August 2021. Please write to studenthelpdesk@comedk.org for any queries.</marquee></li>
-                            <li><marquee>News : Last date for submission of completed application online was 11:59 PM of 3rd August 2021. Please write to studenthelpdesk@comedk.org for any queries.</marquee></li>
-                            <li><marquee>News : Last date for submission of completed application online was 11:59 PM of 3rd August 2021. Please write to studenthelpdesk@comedk.org for any queries.</marquee></li>
-                            <li><marquee>News : Last date for submission of completed application online was 11:59 PM of 3rd August 2021. Please write to studenthelpdesk@comedk.org for any queries.</marquee></li>
-                            <li><marquee>News : Last date for submission of completed application online was 11:59 PM of 3rd August 2021. Please write to studenthelpdesk@comedk.org for any queries.</marquee></li>
-                        </ul>
-                        <button>Question Papers</button>
-                    </div>
-                </div>
-            </div>
-            <div class="space">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h5>Student Predection</h5>
-                    </div>
-                    <div class="col-lg-6">
-                        <h5>Why Future Medico</h5>
-                        <p>With the new paradigm shift in the world of healthcare, medicine, and the healing process;the need for fine doctors, nurses,pharmacists, medical researchers is expanding. the beginning of this success lies in the first stepping stones of your medical career.<br><br>
-                        FutureMedico, a dedicated initiative of PlanEdu- the leading career consultants in Karnataka is a targeted approach towards securing the future of healthcare, medicine, and pharma by establishing your medical career across the top medical colleges in Karnataka.</p>
-                        <div class="why">
-                            <ol>
-                                <li><b>A Promising career counseling tailored per aspirant</b> </li>
-                                <li><b>Direct admission guidance to top medical colleges in Karnataka</b></li>
-                                <li><b>Support in building the necessary skills; beyond academics</b></li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="space">
-                <h2>OUR SERVICES</h2>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <div class="col-lg-5 service">
-                                <img src="assets/img/home/clg&cutoff.png">
-                                <h6>Colleges And Cutoff</h6>
-                            </div>
-                            <div class="col-lg-5 service">
-                                <img src="assets/img/home/course.png">
-                                <h6>Courses</h6>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-5 service">
-                                <img src="assets/img/home/facilities.png">
-                                <h6>Facilities</h6>
-                            </div>
-                            <div class="col-lg-5 service">
-                                <img src="assets/img/home/q&a.png">
-                                <h6>Q&A By Experts</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="space">
+          <h2>TOP CATEGORIES</h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="catbg">
+                    <img src="assets/img/home/mbbs.png" width="80%" />
+                    <h6>MBBS</h6>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="catbg">
+                    <img src="assets/img/home/bds.png" width="80%" />
+                    <h6>BDS</h6>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="catbg">
+                    <img src="assets/img/home/bpharma.png" width="80%" />
+                    <h6>BPharma</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="row space">
+                <div class="col-lg-4">
+                  <div class="catbg">
+                    <img src="assets/img/home/bsc nursing.png" width="50%" />
+                    <h6>BSc.Nursing</h6>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="catbg">
+                    <img src="assets/img/home/bvsc.png" width="50%" />
+                    <h6>B.V.Sc & AH</h6>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="catbg">
+                    <img src="assets/img/home/mbbs.png" width="50%" />
+                    <h6>Medical Allied</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-3">
+                  <div class="catbg">
+                    <img src="assets/img/home/bums.png" width="80%" />
+                    <h6>BUMS</h6>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="catbg">
+                    <img src="assets/img/home/bpt.png" width="80%" />
+                    <h6>BPT</h6>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="catbg">
+                    <img src="assets/img/home/bhms.png" width="80%" />
+                    <h6>BHMS</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img src="assets/img/home/cate.png" />
+            </div>
+          </div>
+        </div>
+        <div class="space">
+          <h2>FEATURED COLLEGES</h2>
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="assets/img/home/ms ramaiah.png" width="100%" />
+              <h6>M. S. Ramaiah Medical College</h6>
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/img/home/bgs.png" width="100%" />
+              <h6>BGS Global Institute of Medical Sciences</h6>
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/img/home/national.png" width="100%" />
+              <h6>Vydehi Institute of Medical Sciences and Research Centre</h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <img
+                src="assets/img/home/bangalore medical college.png"
+                width="100%"
+              />
+              <h6>Bangalore Medical College & Research Institute</h6>
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/img/home/kempogowda.png" width="100%" />
+              <h6>Kempegowda Institute of Medical Science</h6>
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/img/home/dr.ambedkar.png" width="100%" />
+              <h6>Dr. Ambedkar Medical College</h6>
+            </div>
+          </div>
+        </div>
+        <div class="space">
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="assets/img/home/news.png" width="80%" />
+            </div>
+            <div class="col-lg-6">
+              <h5>Latest News and Notification</h5>
+              <h6>Upcoming Exam Dates</h6>
+              <ul>
+                <li>
+                  <marquee
+                    >News : Last date for submission of completed application
+                    online was 11:59 PM of 3rd August 2021. Please write to
+                    studenthelpdesk@comedk.org for any queries.</marquee
+                  >
+                </li>
+                <li>
+                  <marquee
+                    >News : Last date for submission of completed application
+                    online was 11:59 PM of 3rd August 2021. Please write to
+                    studenthelpdesk@comedk.org for any queries.</marquee
+                  >
+                </li>
+                <li>
+                  <marquee
+                    >News : Last date for submission of completed application
+                    online was 11:59 PM of 3rd August 2021. Please write to
+                    studenthelpdesk@comedk.org for any queries.</marquee
+                  >
+                </li>
+                <li>
+                  <marquee
+                    >News : Last date for submission of completed application
+                    online was 11:59 PM of 3rd August 2021. Please write to
+                    studenthelpdesk@comedk.org for any queries.</marquee
+                  >
+                </li>
+                <li>
+                  <marquee
+                    >News : Last date for submission of completed application
+                    online was 11:59 PM of 3rd August 2021. Please write to
+                    studenthelpdesk@comedk.org for any queries.</marquee
+                  >
+                </li>
+              </ul>
+              <button>Question Papers</button>
+            </div>
+          </div>
+        </div>
+        <div class="space">
+          <div class="row">
+            <div class="col-lg-6">
+              <h5>Student Predection</h5>
+            </div>
+            <div class="col-lg-6">
+              <h5>Why Future Medico</h5>
+              <p>
+                With the new paradigm shift in the world of healthcare,
+                medicine, and the healing process;the need for fine doctors,
+                nurses,pharmacists, medical researchers is expanding. the
+                beginning of this success lies in the first stepping stones of
+                your medical career.<br /><br />
+                FutureMedico, a dedicated initiative of PlanEdu- the leading
+                career consultants in Karnataka is a targeted approach towards
+                securing the future of healthcare, medicine, and pharma by
+                establishing your medical career across the top medical colleges
+                in Karnataka.
+              </p>
+              <div class="why">
+                <ol>
+                  <li>
+                    <b>A Promising career counseling tailored per aspirant</b>
+                  </li>
+                  <li>
+                    <b
+                      >Direct admission guidance to top medical colleges in
+                      Karnataka</b
+                    >
+                  </li>
+                  <li>
+                    <b
+                      >Support in building the necessary skills; beyond
+                      academics</b
+                    >
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="space">
+          <h2>OUR SERVICES</h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-5 service">
+                  <img src="assets/img/home/clg&cutoff.png" />
+                  <h6>Colleges And Cutoff</h6>
+                </div>
+                <div class="col-lg-5 service">
+                  <img src="assets/img/home/course.png" />
+                  <h6>Courses</h6>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-5 service">
+                  <img src="assets/img/home/facilities.png" />
+                  <h6>Facilities</h6>
+                </div>
+                <div class="col-lg-5 service">
+                  <img src="assets/img/home/q&a.png" />
+                  <h6>Q&A By Experts</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </body>
-</html>
+  </html>
+</DOCTYPE>

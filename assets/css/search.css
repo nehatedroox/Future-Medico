@@ -1,0 +1,181 @@
+/*---serach box css--------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #644bff;
+  padding: 0 20px;
+}
+
+::selection {
+  color: #fff;
+  background: #664aff;
+}
+
+.wrapper {
+  margin: -24px 209px 25px 209px;
+}
+
+.wrapper .search-input {
+  background: #9f9f744d;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+.search-input input {
+  height: 55px;
+  width: 100%;
+  outline: none;
+  padding: 0 60px 0 20px;
+  font-size: 18px;
+  box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);
+  border: 3px solid #105c96;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.search-input.active input {
+  border-radius: 5px 5px 0 0;
+}
+
+.search-input .autocom-box {
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.search-input.active .autocom-box {
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.autocom-box li {
+  list-style: none;
+  padding: 8px 12px;
+  display: none;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+}
+
+.search-input.active .autocom-box li {
+  display: block;
+}
+.autocom-box li:hover {
+  background: #efefef;
+}
+
+.search-input .icon {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+  color: #644bff;
+  cursor: pointer;
+}
+
+/*--------------------------------------------------------*/
+
+.col-lg-10 {
+  display: flex;
+  flex-direction: row;
+}
+
+/*---form registration css--------------*/
+
+section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  height: 722px;
+  width: 460px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000010;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.form-group {
+  width: 100%;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+button[type="submit"] {
+  border: none;
+  outline: none;
+  font-size: 24px;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  color: rgb(27, 166, 247);
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+  background-color: rgb(214, 226, 236);
+}
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+.form_container {
+  padding: 100px 40px 100px 40px;
+}
