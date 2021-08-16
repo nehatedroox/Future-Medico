@@ -42,6 +42,9 @@ H2 {
   text-align: center;
 }
 
+h4 {
+  color: black;
+}
 h5 {
   text-align: center;
 }
@@ -122,4 +125,27 @@ button {
   border: 1px solid black;
   box-shadow: 5px 5px #105C96;
   margin: 10px;
+}
+.testimonial {
+  background: #105c96;
+  padding: 50px;
+}
+.testimonial-box {
+  text-align: center;
+  border: 1px solid;
+  margin: 5px;
+  color: #fff;
+  padding: 10px;
+}
+.footer {
+  background: #105C96;
+  padding: 20px;
+}
+.text {
+  color: white;
+}
+.fa {
+  padding: 0px 15px 0px 5px;
+  text-align: center;
+  text-decoration: none;
 }
