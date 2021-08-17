@@ -33,7 +33,7 @@ inputBox.onkeyup = (e) => {
       allList[i].setAttribute("onclick", "select(this)");
     }
   } else {
-    searchWrapper.classList.remove("active"); //hide autocomplete box
+    searchWrapper.classList.remove("active"); //hide autocomplete box yes
   }
 };
 

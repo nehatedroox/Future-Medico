@@ -95,7 +95,7 @@ body {
   flex-direction: row;
 }
 
-/*---form registration css--------------*/
+/*---form registration css- added-------------*/
 
 section {
   width: 50%;
@@ -104,6 +104,7 @@ section {
   justify-content: center;
   flex-direction: column;
 }
+
 .container-ab {
   height: 722px;
   width: 460px;
