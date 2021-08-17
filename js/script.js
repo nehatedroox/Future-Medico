@@ -38,10 +38,12 @@ inputBox.onkeyup = (e) => {
 };
 
 function select(element) {
+  debugger;
   let selectData = element.textContent;
   inputBox.value = selectData;
   icon.onclick = () => {
-    webLink = `https://www.google.com/search?q=${selectData}`;
+    //webLink = `https://www.google.com/search?q=${selectData}`;
+    webLink = `${selectData}.html`;
     linkTag.setAttribute("href", webLink);
     linkTag.click();
   };

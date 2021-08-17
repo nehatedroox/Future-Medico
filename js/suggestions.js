@@ -27,4 +27,5 @@ let suggestions = [
   "What does CSS stands for?",
   "NIT Jamshedpur",
   "NIT Raipur",
+  "About",
 ];
