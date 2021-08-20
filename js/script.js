@@ -5,22 +5,30 @@ const suggBox = searchWrapper.querySelector(".autocom-box");
 const icon = searchWrapper.querySelector(".icon");
 let linkTag = searchWrapper.querySelector("a");
 let webLink;
+let arr='';
 
 // if user press any key and release
 inputBox.onkeyup = (e) => {
   let userData = e.target.value; //user enetered data
   let emptyArray = [];
+
+  var __FOUND = suggestions.find(function(post, index) {
+     if(post.collegeName == userData)
+      return true;
+  });
+   arr=__FOUND.title;
+  console.log("emptyArray",__FOUND.title);
+
+
   if (userData) {
     icon.onclick = () => {
-      webLink = `https://www.google.com/search?q=${userData}`;
+      //webLink = `https://www.google.com/search?q=${arr}`;
+     webLink = `${arr}.html`;
 
       linkTag.setAttribute("href", webLink);
       linkTag.click();
     };
-    emptyArray = suggestions.filter((data) => {
-      //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
-      return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase());
-    });
+
     emptyArray = emptyArray.map((data) => {
       // passing return data inside li tag
       return (data = `<li>${data}</li>`);
@@ -33,15 +41,18 @@ inputBox.onkeyup = (e) => {
       allList[i].setAttribute("onclick", "select(this)");
     }
   } else {
-    searchWrapper.classList.remove("active"); //hide autocomplete box yes
+    searchWrapper.classList.remove("active"); 
   }
 };
 
 function select(element) {
+  debugger;
   let selectData = element.textContent;
   inputBox.value = selectData;
   icon.onclick = () => {
-    webLink = `https://www.google.com/search?q=${selectData}`;
+    //webLink = `https://www.google.com/search?q=${selectData}`;
+    webLink = `${arr}.html`;
+   
     linkTag.setAttribute("href", webLink);
     linkTag.click();
   };

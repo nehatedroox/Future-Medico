@@ -8,7 +8,15 @@
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link href="assets/css/home.css" rel="stylesheet" />
       <link href="assets/css/search.css" rel="stylesheet" />
+
+      <link href="assets/css/modal.css" rel="stylesheet" />
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      />
+
       <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -335,8 +343,45 @@
         <div class="space">
           <div class="row">
             <div class="col-lg-6" style="border: 1px solid black">
-              <h5 class="sub-h">Student Predection</h5>
-            </div>
+
+              <h5>Student Predection</h5>
+              <button id="myBtn">Click here for Student Predection</button>
+
+              <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div
+                  class="modal-content"
+                  style="width: 540px; margin-left: 202px; margin-top: 195px"
+                >
+                  <span class="close">&times;</span>
+
+                  <form id="my-form">
+                    <div class="form-group">
+                      <label for="stateName"> Enter state</label>
+                      <input type="text" id="stateName" name="stateName" />
+                    </div>
+
+                    <div class="form-group">
+                      <label for="needRank">Enter Need Rank</label>
+                      <input type="text" id="needRank" name="needRank" />
+                    </div>
+
+                    <div class="form-group">
+                      <label for="needRank">Enter Need Percentage </label>
+                      <input type="text" id="per" name="per" />
+                    </div>
+                     <!-- Trigger/Open The Modal -->
+                    <button id="nextBtn">NEXT</button>
+                  </form>
+                  </div>  
+                </div>
+                <script src="js/modal.js"></script>
+              </div>
+             
+          
+            
+
+
             <div class="col-lg-6">
               <h5 class="sub-h">Why Future Medico</h5>
               <p>
