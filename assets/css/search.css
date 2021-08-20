@@ -9,7 +9,6 @@
 
 body {
   background: #644bff;
-  padding: 0 20px;
 }
 
 ::selection {
@@ -22,11 +21,9 @@ body {
 }
 
 .wrapper .search-input {
-  background: #9f9f744d;
   width: 100%;
   border-radius: 5px;
   position: relative;
-  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
 }
 
 .search-input input {
@@ -34,7 +31,7 @@ body {
   width: 100%;
   outline: none;
   padding: 0 60px 0 20px;
-  font-size: 18px;
+  font-size: 15px;
   box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);
   border: 3px solid #105c96;
   box-sizing: border-box;
@@ -105,16 +102,6 @@ section {
   flex-direction: column;
 }
 
-.container-ab {
-  height: 722px;
-  width: 460px;
-  margin: 0 auto;
-  padding: 20px;
-  box-shadow: 0px 0px 20px #00000010;
-  background-color: white;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
 .form-group {
   width: 100%;
 }
@@ -122,7 +109,7 @@ section {
 .form-group textarea {
   width: 100%;
   padding: 5px;
-  font-size: 18px;
+  font-size: 13px;
   border: 1px solid rgba(128, 128, 128, 0.199);
   margin-top: 5px;
 }
@@ -134,7 +121,7 @@ textarea {
 button[type="submit"] {
   border: none;
   outline: none;
-  font-size: 24px;
+  font-size: 20px;
   border-radius: 8px;
   font-family: "Montserrat";
   color: rgb(27, 166, 247);
