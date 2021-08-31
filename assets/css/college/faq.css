@@ -1,0 +1,60 @@
+summary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-color: #eff3f6;
+  color: var(--green);
+  padding: 2rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  line-height: 10px;
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+  top: 10px;
+  font-size: 25px;
+  background-color: #f6f7f8;
+  border-radius: 15px;
+  width: 40px;
+  padding: 10px;
+  height: 26px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+  top: 10px;
+  font-size: 30px;
+  background-color: #f6f7f8;
+  border-radius: 15px;
+  width: 40px;
+  padding: 10px;
+  height: 26px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px}
+  100%  {opacity: 1; margin-top: 0px}
+}
+
+.faq-section{
+  margin: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.summary-text{
+  color:black;
+}
