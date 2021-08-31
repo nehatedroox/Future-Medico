@@ -1,0 +1,169 @@
+/*---serach box css--------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #644bff;
+}
+
+::selection {
+  color: #fff;
+  background: #664aff;
+}
+
+.wrapper-for-college-searchbar {
+  margin: 10px;
+}
+
+.wrapper-for-college-searchbar .search-input-for-college {
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+}
+
+.search-input-for-college input {
+  height: 55px;
+  width: 100%;
+  outline: none;
+  padding: 0 60px 0 20px;
+  font-size: 15px;
+  box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);
+  border: 3px solid #105c96;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.search-input-for-college.active input {
+  border-radius: 5px 5px 0 0;
+}
+
+.search-input-for-college .autocom-box-for-college {
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.search-input-for-college.active .autocom-box-for-college {
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.autocom-box-for-college li {
+  list-style: none;
+  padding: 8px 12px;
+  display: none;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+}
+
+.search-input-for-college.active .autocom-box-for-college li {
+  display: block;
+}
+.autocom-box-for-college li:hover {
+  background: #efefef;
+}
+
+.search-input-for-college .icon {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+  color: #644bff;
+  cursor: pointer;
+}
+
+/*--------------------------------------------------------*/
+
+.col-lg-10 {
+  display: flex;
+  flex-direction: row;
+}
+
+/*---form registration css- added-------------*/
+
+section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-group-for-college {
+  width: 100%;
+}
+.form-group-for-college input,
+.form-group-for-college textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 13px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+button[type="submit"] {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  color: rgb(27, 166, 247);
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+  background-color: rgb(214, 226, 236);
+}
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+/* .form_container {
+  padding: 100px 40px 100px 40px;
+} */
