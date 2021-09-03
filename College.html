@@ -19,15 +19,14 @@
         <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
   
         <!--bootstrap slider css Start -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
          <!-- jQuery -->
          <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="crossorigin="anonymous"></script>
          <script src="/Layouts/en-us/js/jquery-ui.min.js" ></script>
-
          <script src="assets/main.js"></script>
-         <script src="js/faq.js"></script>
          <script>jQuery(document).ready(function ($) { $(function () { $("#tabs").tabs();});});</script> 
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+         <link href="assets/css/college/subCollege.css" rel="stylesheet" />
       </head>
       <body>
        
@@ -503,16 +502,19 @@
           <h3>know more about upcoming entrance exam updates</h3>
         </div>
         <div class="col-lg-2 ">
-          <button class="click-btn"  id="myBtn">Click Here</button>
-         <!--after click button form will open------------------------->
+          <button class="ask-btn" onclick="test()" >Click Here</button>
+
+          <!--after click button form will open------------------------->
           <div>
-            <div id="myModal" class="applyModal">
+            <div id="myaskId" class="askModal">
               <!-- Modal content open-->
               <div
-                class="applyModal-content"
+                class="askModal-content"
                 style="width: 540px;margin: 200px 27px 73px 500px;"
               >
-                <span class="close">&times;</span>
+               <!-- Modal content -->
+               <!-- <span class="close">�</span> -->
+               <span class="close glyphicon glyphicon-remove"  style="font-size: 12px; font-weight: 0px;"></span>
                   <form action="https://formspree.io/f/mqkwgzpl"method="POST"id="my-form">
                   <table  class="form-table" style="border: none;">
                     <tr>
@@ -534,7 +536,7 @@
                     <tr>
                       <td class="form-td">Messages</td>
                       <td class="form-td"> 
-                        <textarea name="massage" id="massage" cols="22" rows="10" placeholder="Message...." ></textarea> 
+                        <textarea name="massage" id="massage" cols="21" rows="3" placeholder="Message...." ></textarea> 
                     </tr>
                     <tr></tr>
                     </table>
@@ -542,9 +544,11 @@
                 </form>
                 </div>  
               </div>
-              <script src="js/applyModal.js"></script>
+              <script src="js/askModal.js"></script>
             </div>
   <!-- Modal content end-->
+
+         
         </div>
          </div>
         </div>
@@ -762,53 +766,9 @@
             <h3>Do You Want  To Know More About College?</h3>
           </div>
           <div class="col-lg-2 ">
-            <button class="ask-btn" id="askBtn">Ask here</button>
-
-             <!--after click button form will open------------------------->
-          <div>
-            <div id="myaskId" class="askModal">
-              <!-- Modal content open-->
-              <div
-                class="askModal-content"
-                style="width: 540px;margin: 200px 27px 73px 500px;"
-              >
-                <span class="close">&times;</span>
-                  <form action="https://formspree.io/f/mqkwgzpl"method="POST"id="my-form">
-                  <table  class="form-table" style="border: none;">
-                    <tr>
-                      <td class="form-td">Enter Name</td>
-                      <td class="form-td"> <input type="text" id="name" name="name" /></td>
-                    </tr>
-                    <tr>
-                      <td class="form-td">Enter Email</td>
-                      <td class="form-td"> <input type="text" id="email" name="email" /></td>
-                    </tr>
-                    <tr>
-                      <td class="form-td">Enter PhoneNumber</td>
-                      <td class="form-td"> <input type="text" id="phnumber" name="phnumber" /></td>
-                    </tr>
-                    <tr>
-                      <td class="form-td">Enter Course-Name</td>
-                      <td class="form-td"> <input type="text" id="course" name="course" /></td>
-                    </tr>
-                    <tr>
-                      <td class="form-td">Messages</td>
-                      <td class="form-td"> 
-                        <textarea name="massage" id="massage" cols="22" rows="10" placeholder="Message...." ></textarea> 
-                    </tr>
-                    <tr></tr>
-                    </table>
-                  <button type="submit" style="margin-top:5px;">Submit</button>
-                </form>
-                </div>  
-              </div>
-              <script src="js/askModal.js"></script>
-            </div>
-  <!-- Modal content end-->
-
+            <button class="ask-btn" onclick="test()">Ask here</button>
           </div>
-      </div>
-         
+      </div>     
    </div>
   
        <!-- ASK HERE ROW END-->
