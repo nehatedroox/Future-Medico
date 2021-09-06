@@ -43,11 +43,15 @@ body {
 }
 
 .navSabBar-for-college a:hover {
-  color: #0b7dda;
+  color: #0b0b4b;
+  text-decoration: none;
 }
 
 .navSabBar-for-college a.active {
   color: #105c96;
+  /* text-decoration: none; */
+  text-decoration: underline;
+  
 }
 /*---Nav Sab bar css end------ */
 
@@ -172,20 +176,13 @@ button {
 
 /* ----------------------------------- */
 #tabs #tab-container-1-nav li.activeli a {
-  /* background: #1f5497;
-    color: #fff; */
-}
-#tabs #tab-container-1-nav li a {
-  /* padding: 10px 15px; */
-  /* background: #f2f2f2;
-    color: #4D4D4D;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-    text-align: center;
-    -webkit-border-radius: 6px 6px 0px 0px;
-    border-radius: 6px 6px 0px 0px; */
 }
+/* #tabs #tab-container-1-nav li a {
+ 
+  text-decoration: none;
+} */
+
 #tabs #tab-container-1-nav li {
   float: left;
   display: inline;
@@ -223,22 +220,8 @@ div#tab-container-1 {
   padding: 500px;
 }
 
-/* .import-admission-section {
-  border: 1px solid #ffffff;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
-  display: flex;
-  flex-direction: column;
-} */
 
-/* .import-admission-section{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-} */
 .admission-section {
-  /* margin-top: -110px;
-  margin-left: 700px; */
   margin-left: 700px;
 }
 
@@ -404,24 +387,6 @@ div#tab-container-1 {
   margin-left: 20px;
 }
 
-/* .cut-off-subheading {
-  font-size: 20px;
-  background-color: #e5e5e5;
-  margin-left: 10px;
-  padding-left: 100px;
-
-  font-weight: 400;
-  border: 2px solid black;
-} */
-
-/* .cut-off-sub-rowheading {
-  background-color: #e5e5e5;
-  margin-left: 10px;
-  padding-left: 100px;
-  font-size: 14px;
-  font-weight: 400;
-} */
-
 .cell-text {
   border: 2px solid var(--white);
   width: 140%;
@@ -567,31 +532,6 @@ tr:nth-child(even) {
   width: 100%;
 }
 
-/*------Apply-Model-css-added------------------------------ */
-
-.applyModal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0px;
-  top: 0;
-  width: 210%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-/* -----Modal Content--------*/
-.applyModal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-
-  width: 35%;
-}
-
 /* The Close Button */
 .close {
   color: #aaaaaa;
@@ -657,6 +597,7 @@ tr:nth-child(even) {
   width: 35%;
 }
 
+
 /*-- ramaiah clg ANIL ---------- */
 
 .mission {
@@ -666,4 +607,39 @@ tr:nth-child(even) {
 .fclty {
   color: #000;
   text-align: center;
+
+/*------Campus-Model-css-added------------------------------ */
+
+.campusModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0px;
+  top: 0;
+  width: 210%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.campusModal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+
+  width: 35%;
+}
+
+.campus-btn {
+  line-height: 36px;
+  color: #000000;
+  margin: 10px 10px 10px 10px;
+  width: 45%;
+  background-color: white;
+  font-weight: 100;
+  border: 1px solid #f6d8d8;
+
 }

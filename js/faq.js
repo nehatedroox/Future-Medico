@@ -1,1 +1,0 @@
-/**---FAQ-SECTION-SCRIPT------------- */

@@ -1,0 +1,47 @@
+/*------ask-Model-css-added------------------------------ */
+
+.askModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0px;
+    top: 0;
+    width: 210%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Modal Content */
+  .askModal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+  
+    width: 35%;
+  }
+  
+  /* --form-table----------- */
+.form-table{
+    border: 7px solid #ffffff;
+    border: none;
+  }
+  
+  .form-td{
+      background: white;
+      padding: 5px;
+      border: none;
+  }
+  
+  .ask-btn-for-form {
+    line-height: 36px;
+    color: #000000;
+    margin: 10px 10px 10px 10px;
+    width: 45%;
+    background-color: white;
+    font-weight: 100;
+    border: 1px solid #f6d8d8;
+  }
+

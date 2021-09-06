@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width">
         <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
     	<link href="assets/css/home.css" rel="stylesheet" />
+       
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -13,6 +14,9 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="assets/main.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link href="assets/css/college/subCollege.css" rel="stylesheet" />
     </head>
     <body>
     	<!-- NAVBAR START -->
@@ -183,7 +187,53 @@
                         <h5>Do You Want to  know more about Courses and Facilities?</h5>
                     </div>
                     <div class="col-lg-3 course-align">
-                        <button>Ask Now</button>
+                    <button class="ask-btn" onclick="test()">Ask Now</button>
+
+                    <!--after click button form will open------------------------->
+                     <div>
+                       <div id="myaskId" class="askModal">
+                         <!-- Modal content open-->
+                         <div
+                           class="askModal-content"
+                           style="width: 540px;margin: 200px 27px 73px 500px;"
+                         >
+                          <!-- Modal content -->
+                          <!-- <span class="close">�</span> -->
+                          <span class="close glyphicon glyphicon-remove"  style="font-size: 12px; font-weight: 0px;"></span>
+                             <form action="https://formspree.io/f/mqkwgzpl"method="POST"id="my-form">
+                             <table  class="form-table" style="border: none;">
+                               <tr>
+                                 <td class="form-td">Enter Name</td>
+                                 <td class="form-td"> <input type="text" id="name" name="name" /></td>
+                               </tr>
+                               <tr>
+                                 <td class="form-td">Enter Email</td>
+                                 <td class="form-td"> <input type="text" id="email" name="email" /></td>
+                               </tr>
+                               <tr>
+                                 <td class="form-td">Enter PhoneNumber</td>
+                                 <td class="form-td"> <input type="text" id="phnumber" name="phnumber" /></td>
+                               </tr>
+                               <tr>
+                                 <td class="form-td">Enter Course-Name</td>
+                                 <td class="form-td"> <input type="text" id="course" name="course" /></td>
+                               </tr>
+                               <tr>
+                                 <td class="form-td">Messages</td>
+                                 <td class="form-td"> 
+                                   <textarea name="massage" id="massage" cols="21" rows="3" placeholder="Message...." ></textarea> 
+                               </tr>
+                               <tr></tr>
+                               </table>
+                             <button type="submit" style="margin-top:5px;">Submit</button>
+                           </form>
+                           </div>  
+                         </div>
+                         <script src="js/askModal.js"></script>
+                       </div>
+             <!-- Modal content end-->
+
+
                     </div>
                 </div>
             </div>
@@ -245,7 +295,8 @@
                         <p>Eligibility: 10+2 <b>|</b> Annual fee: Rs 7140 <b>|</b> Entrance Exam: NEET, UG</p>
                     </div>
                     <div class="col-lg-3">
-                        <button>Apply Now</button>
+                       
+                        <button class="ask-btn" onclick="test()">Apply Now</button>
                         <button>Enquiry</button>
                     </div>
                 </div>
@@ -258,7 +309,7 @@
                         <p>Eligibility: 10+2 <b>|</b> Annual fee: Rs.31870 <b>|</b> Entrance Exam: NEET-UG</p>
                     </div>
                     <div class="col-lg-3">
-                        <button>Apply Now</button>
+                        <button class="ask-btn" onclick="test()">Apply Now</button>
                         <button>Enquiry</button>
                     </div>
                 </div>
@@ -271,7 +322,7 @@
                         <p>Eligibilty: 10+2 with 50% <b>|</b> Annual fee: Rs.4970 <b>|</b> Entrance Exam: NEET</p>
                     </div>
                     <div class="col-lg-3">
-                        <button>Apply Now</button>
+                        <button class="ask-btn" onclick="test()">Apply Now</button>
                         <button>Enquiry</button>
                     </div>
                 </div>
@@ -284,7 +335,7 @@
                             <h5>Get Latest Updates on NEET Entrance Exams</h5>
                         </div>
                         <div class="col-lg-3 course-align">
-                            <button>Get Started</button>
+                            <button class="ask-btn" onclick="test()">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -297,7 +348,7 @@
                         <p>Eligibility:10+2 with 50% <b>|</b> Annual fee: RS.48330 <b>|</b> Entrance Exam: NEET-UG</p>
                     </div>
                     <div class="col-lg-3">
-                        <button>Apply Now</button>
+                        <button class="ask-btn" onclick="test()">Apply Now</button>
                         <button>Enquiry</button>
                     </div>
                 </div>
@@ -310,7 +361,7 @@
                         <p>Eligibility: 10+2 with 60% in PCB stream <b>|</b> Annual fee: Rs.11000 <b>|</b> Entrance Exam: NEET-UG</p>
                     </div>
                     <div class="col-lg-3">
-                        <button>Apply Now</button>
+                        <button class="ask-btn" onclick="test()">Apply Now</button>
                         <button>Enquiry</button>
                     </div>
                 </div>
@@ -323,7 +374,7 @@
                         <p>Eligibility: 10+2 with 50% in PCB Stream <b>|</b> Annual fee: Rs.54900 <b>|</b> Entrance Exam: NEET-UG</p>
                     </div>
                     <div class="col-lg-3">
-                        <button>Apply Now</button>
+                        <button class="ask-btn" onclick="test()">Apply Now</button>
                         <button>Enquiry</button>
                     </div>
                 </div>
@@ -364,7 +415,7 @@
                         <h5>Are You Confused about What Courses to Choose?</h5>
                     </div>
                     <div class="col-lg-3 course-align1">
-                        <button>Take a Counceling</button>
+                        <button class="ask-btn" onclick="test()">Take a Counceling</button>
                     </div>
                 </div>
             </div>

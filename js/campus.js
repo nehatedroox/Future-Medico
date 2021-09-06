@@ -1,24 +1,24 @@
 //----------- ask-here-Modal-----------------------//
 
-var askModal = document.getElementById("myaskId");
+var campusModal = document.getElementById("campusId");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close")[1];
 
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
-    askModal.style.display = "none";
+    campusModal.style.display = "none";
 };
 
-function test(){
-  askModal.style.display = "block";
+function test1(){
+    campusModal.style.display = "block";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
-  if (event.target == askModal) {
-    askModal.style.display = "none";
+  if (event.target == campusModal) {
+    campusModal.style.display = "none";
   }
 };
 
