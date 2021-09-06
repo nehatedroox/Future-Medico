@@ -43,11 +43,15 @@ body {
 }
 
 .navSabBar-for-college a:hover {
-  color: #0b7dda;
+  color: #0b0b4b;
+  text-decoration: none;
 }
 
 .navSabBar-for-college a.active {
   color: #105c96;
+  /* text-decoration: none; */
+  text-decoration: underline;
+  
 }
 /*---Nav Sab bar css end------ */
 
@@ -180,12 +184,13 @@ img {
 
 /* ----------------------------------- */
 #tabs #tab-container-1-nav li.activeli a {
-  /* background: #1f5497;
-    color: #fff; */
+    text-decoration: none;
 }
-#tabs #tab-container-1-nav li a {
-  /* ------- */
-}
+/* #tabs #tab-container-1-nav li a {
+ 
+  text-decoration: none;
+} */
+
 #tabs #tab-container-1-nav li {
   float: left;
   display: inline;
@@ -602,4 +607,39 @@ tr:nth-child(even) {
   border: 1px solid #888;
 
   width: 35%;
+}
+
+/*------Campus-Model-css-added------------------------------ */
+
+.campusModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0px;
+  top: 0;
+  width: 210%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.campusModal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+
+  width: 35%;
+}
+
+.campus-btn {
+  line-height: 36px;
+  color: #000000;
+  margin: 10px 10px 10px 10px;
+  width: 45%;
+  background-color: white;
+  font-weight: 100;
+  border: 1px solid #f6d8d8;
 }
