@@ -607,12 +607,13 @@ tr:nth-child(even) {
 .fclty {
   color: #000;
   text-align: center;
+}
 
 /*------Campus-Model-css-added------------------------------ */
 
-.campusModal {
+.campusModal{
   display: none;
-  position: fixed;
+  position:fixed;
   z-index: 1;
   padding-top: 100px;
   left: 0px;
@@ -620,7 +621,7 @@ tr:nth-child(even) {
   width: 210%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color:rgba(0, 0, 0, 0.4);
 }
 
 /* Modal Content */
