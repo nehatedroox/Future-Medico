@@ -38,3 +38,19 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+
+/*------view-more------------*/
+.view-more{
+  background-color: blue;
+  border-radius: 10px;
+  height: 30px;
+  border:blue;
+}
+
+.show-more{
+  background-color: blue;
+  border-radius: 10px;
+  height: 30px;
+  border:blue;
+  }

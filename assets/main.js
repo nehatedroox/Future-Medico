@@ -86,3 +86,50 @@ for (i = 0; i < acc.length; i++) {
 }
 
 });
+
+
+// show more and show less buttton-on--college--page-------------------
+function toggleText() {
+  var points =
+    document.getElementById("points");
+
+  var showMoreText =
+    document.getElementById("moreText");
+
+  var buttonText =
+    document.getElementById("textButton");
+  if (points.style.display === "none") {
+    showMoreText.style.display = "none";
+    points.style.display = "inline";
+    buttonText.innerHTML = "Show More"+ "<span class='glyphicon glyphicon-arrow-down'  style='font-size: 12px; font-weight: 0px;'></span>";
+  }
+  else {
+    showMoreText.style.display = "inline";
+    points.style.display = "none";
+    buttonText.innerHTML = "Show Less"+
+    "<span class='glyphicon glyphicon-arrow-up'  style='font-size: 12px; font-weight: 0px;'></span>";
+  }
+}
+
+// view more and view less buttton--on--college---page-----------------
+function toggleText1() {
+  var points1 =
+    document.getElementById("points1");
+
+  var showMoreText1 =
+    document.getElementById("moreText1");
+
+  var buttonText =
+    document.getElementById("textButton1");
+  if (points1.style.display === "none") {
+    showMoreText1.style.display = "none";
+    points1.style.display = "inline";
+    buttonText.innerHTML = "View More"+"<span class='glyphicon glyphicon-arrow-down'  style='font-size: 12px; font-weight: 0px;'></span>";
+  }
+  else {
+    showMoreText1.style.display = "inline";
+    points1.style.display = "none";
+    buttonText.innerHTML = "View Less"+"<span class='glyphicon glyphicon-arrow-up'  style='font-size: 12px; font-weight: 0px;'></span>";
+   
+  }
+}
