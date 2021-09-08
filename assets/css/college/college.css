@@ -628,6 +628,13 @@ tr:nth-child(even) {
   color: #000;
   text-align: center;
 }
+.campus {
+  background: #ADC6F7;
+  padding: 30px;
+}
+.campus-space {
+  padding: 15px 0px;
+}
 
 /*------Campus-Model-css-added------------------------------ */
 
