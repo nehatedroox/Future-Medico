@@ -168,6 +168,7 @@ button {
 .read-more-words {
   /* display: flex; */
   border: none;
+  text-align: justify;
 }
 
 .read-more-word1 {
@@ -425,6 +426,15 @@ tr:nth-child(even) {
   padding:10px;
 }
 
+.dep-td-for-vd{
+  text-align: center;
+  padding:10px;
+}
+
+.intake{
+  margin-left: 94px;
+}
+
 .dept-medical-img{
   height: 500px;
   width: 800px;
@@ -449,7 +459,7 @@ tr:nth-child(even) {
 }
 .leftcolumn {   
   float: left;
-  width: 30%;
+  width: 33%;
 }
 
 /* Right column */
