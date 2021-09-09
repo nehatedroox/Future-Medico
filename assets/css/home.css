@@ -54,6 +54,12 @@ body {
   font-size: 20px;
   color: #000;
 }
+
+.board-member {
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+}
 .btn {
   text-align: center;
   width: 100%;
