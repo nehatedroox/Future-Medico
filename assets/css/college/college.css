@@ -227,6 +227,11 @@ div#tab-container-1 {
   margin-left: 700px;
 }
 
+.admission-section-for-ambedkar {
+  margin-top: 20px;
+}
+
+
 .admission-title {
   color: #000000;
   text-align: center;
@@ -670,4 +675,19 @@ tr:nth-child(even) {
   font-weight: 100;
   border: 1px solid #f6d8d8;
 
+}
+
+/*-------- middle column for dr-ambedkar college------ */
+.middlecolumn-ambedkar-clg{
+  float: left;
+  width: 50%;
+  padding-left: 125px;
+  margin-top: 50px;
+ 
+ }
+
+ .leftcolumn-ambedkar-clg {
+  float: left;
+  width: 36%;
+  padding-left: 50px;
 }

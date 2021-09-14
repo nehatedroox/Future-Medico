@@ -34,20 +34,25 @@
     <body>
       <!-- NAVBAR START -->
       <div class="container">
-        <div class="topnav">
+        <div class="topnav" id="myTopnav">
           <div class="row">
             <div class="col-lg-2">
-              <img src="assets/img/home/logo1.png" width="50%" />
+              <img src="assets/img/home/logo1.png" width="60%" />
             </div>
-            <div class="col-lg-10">
-              <a class="active" href="Home.html">Home</a>
+            <div class="col-lg-8">
+              <a class="active" href="index.html">Home</a>
               <a href="#news">About</a>
               <a href="#contact">Services</a>
-              <a href="#contact">Courses</a>
-              <a href="#about">Top Colleges</a>
-              <a href="#about">Resources</a>
+              <a href="course.html">Courses</a>
+              <a href="topcolleges.html">Top Colleges</a>
               <a href="#about">Exams</a>
               <a href="#about">Contact</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+            <div class="col-lg-2 abroad">
+              <p>STUDY ABROAD <i class="fa fa-plane"></i></p>
             </div>
           </div>
         </div>
@@ -64,37 +69,39 @@
             <li data-target="#myCarousel" data-slide-to="2"></li>
           </ol>
           <!-- Wrapper for slides ---------->
-          <div class="carousel-inner">
-            <div class="item active">
-              <div class="row" style="background-color: #105c96">
-                <div class="col-lg-6 center">
-                  <h3 class="slider-heading">Be the Master of your Own Fate! It’s time you choose your dream medical career</h3>
-                  <p class="slider-heading">NEET Percentage Predictor   |   NEET Exam  Circulations</p>
-                </div>
-                <div class="col-lg-6">
-                  <img src="assets/img/home/slide1.png"alt="Los Angeles"style="width: 100%"/>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="row" style="background-color: #105c96">
-                <div class="col-lg-6 center">
-                  <h3 class="slider-heading">Admissions Open for Medical and Allied Health Science in top Medical Colleges in Karnataka</h3>
-                  <p class="slider-heading">NEET Percentage Predictor   |   NEET Exam  Circulations</p>
-                </div>
-                <div class="col-lg-6">
-                  <img src="assets/img/home/slide2.png"alt="Los Angeles"style="width: 100%"/>
+          <div class="slider-bg">
+            <div class="container carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-lg-6 center">
+                    <h3>Be the Master of your Own Fate! It’s time you choose your dream medical career</h3>
+                    <p>NEET Percentage Predictor   |   NEET Exam  Circulations</p>
+                  </div>
+                  <div class="col-lg-6">
+                    <img src="assets/img/home/slide1.png"alt="Los Angeles"style="width: 100%"/>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="item">
-              <div class="row" style="background-color: #105c96">
-                <div class="col-lg-6 center">
-                  <h3 class="slider-heading">Now get your seats booked for all trending Medical Courses</h3>
-                  <p class="slider-heading">NEET Percentage Predictor   |   NEET Exam  Circulations</p>
+              <div class="item">
+                <div class="row" style="background-color: #105c96">
+                  <div class="col-lg-6 center">
+                    <h3>Admissions Open for Medical and Allied Health Science in top Medical Colleges in Karnataka</h3>
+                    <p>NEET Percentage Predictor   |   NEET Exam  Circulations</p>
+                  </div>
+                  <div class="col-lg-6">
+                    <img src="assets/img/home/slide2.png"alt="Los Angeles"style="width: 100%"/>
+                  </div>
                 </div>
-                <div class="col-lg-6">
-                  <img src="assets/img/home/slide3.png"alt="Los Angeles"style="width: 100%" />
+              </div>
+              <div class="item">
+                <div class="row" style="background-color: #105c96">
+                  <div class="col-lg-6 center">
+                    <h3>Now get your seats booked for all trending Medical Courses</h3>
+                    <p>NEET Percentage Predictor   |   NEET Exam  Circulations</p>
+                  </div>
+                  <div class="col-lg-6">
+                    <img src="assets/img/home/slide3.png"alt="Los Angeles"style="width: 100%" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -131,7 +138,7 @@
       <!-- TOP COLLEGES START -->
       <div class="container">
         <div>
-          <h2 class="headings">TOP COLLEGES</h2>
+          <h2 class="headings">FEATURED COLLEGES</h2>
           <div class="row">
             <div class="col-lg-4">
               <img src="assets/img/home/national.png" width="100%" />
@@ -198,7 +205,7 @@
               <div id="status"></div>
             </div>
             <div class="col-lg-6">
-              <img src="assets/img/home/service gif.gif">
+              <img src="assets/img/home/service gif.gif" width="100%">
             </div>
           </div>
         </div>
@@ -266,14 +273,14 @@
                 </div>
                 <div class="col-lg-3">
                   <div class="catbg">
-                    <img src="assets/img/home/bhms.png" width="80%" />
+                    <a href="bhms.html"><img src="assets/img/home/bhms.png" width="80%" /></a>
                     <h6 class="sub-t">BHMS</h6>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-6">
-              <img src="assets/img/home/cate.png" />
+              <img src="assets/img/home/cate.png" width="100%">
             </div>
           </div>
         </div>
@@ -281,7 +288,7 @@
 
         <!-- FEATURED COLLEGES START -->
         <div class="space">
-          <h2 class="headings">FEATURED COLLEGES</h2>
+          <h2 class="headings">TOP COLLEGES</h2>
           <div class="row">
             <div class="col-lg-4">
               <a href="ms-ramaiah.html"><img src="assets/img/home/ms ramaiah.png" width="100%" /></a>
@@ -306,7 +313,7 @@
               <h6 class="sub-t">Kempegowda Institute of Medical Science</h6>
             </div>
             <div class="col-lg-4">
-              <img src="assets/img/home/dr.ambedkar.png" width="100%" />
+              <a href="Ambedkar.html"><img src="assets/img/home/dr.ambedkar.png" width="100%" /></a>
               <h6 class="sub-t">Dr. Ambedkar Medical College</h6>
             </div>
           </div>
@@ -321,22 +328,16 @@
               <h6 class="sub-t">Upcoming Exam Dates</h6>
               <ul>
                 <li>
-                  <marquee> News : Last date for submission of completed application online was 11:59 PM of 3rd August 2021. Please write to studenthelpdesk@comedk.org for any queries.</marquee>
+                  <marquee><h5><a href="file:///C:/Future-Medico/assets/pdf/AIQ%20SEAT%20MATRIX%20FOR%20PG%202021%20DENTAL.pdf">Now you can download seat rankings and availability for MDS admissions for All India Quota rankings of all Dental Colleges in India. Download Now</a>.</h5></marquee>
                 </li>
                 <li>
-                  <marquee> News : Last date for submission of completed application online was 11:59 PM of 3rd August 2021. Please write to studenthelpdesk@comedk.org for any queries.</marquee>
+                  <marquee><h5><a href="file:///C:/Future-Medico/assets/pdf/CENTRAL%20SEAT%20MATRIX%20FOR%20PG%202021%20DENTAL.pdf">Now you can download seat rankings and availability for MDS admissions under Central University rankings of all Dental Colleges in India. Download Now</a>.</h5></marquee>
                 </li>
                 <li>
-                  <marquee> News : Last date for submission of completed application online was 11:59 PM of 3rd August 2021. Please write to studenthelpdesk@comedk.org for any queries.</marquee>
-                </li>
-                <li>
-                  <marquee> News : Last date for submission of completed application online was 11:59 PM of 3rd August 2021. Please write to studenthelpdesk@comedk.org for any queries.</marquee>
-                </li>
-                <li>
-                  <marquee> News : Last date for submission of completed application online was 11:59 PM of 3rd August 2021. Please write to studenthelpdesk@comedk.org for any queries.</marquee>
+                  <marquee><h5><a href="file:///C:/Future-Medico/assets/pdf/DEEMED%20UNIV.%20SEAT%20MATRIX%20FOR%20PG%202021%20DENTAL.pdf">Now you can download seat rankings and availability for MDS admissions for Deemed University rankings of all Dental Colleges in India. Download Now.</a>.</h5></marquee> 
                 </li>
               </ul>
-              <button>Question Papers</button>
+              <button>Latest Question Papers</button>
             </div>
           </div>
         </div>
@@ -534,8 +535,8 @@
             </div>
             <div class="col-lg-3">
               <h4>CONTACT</h4>
-              <p><i class="fa fa-phone text"> +91 8498641456</i></p>
-              <p><i class="fa fa-envelope text"> info@fututemedico.com</i></p>
+              <p><i class="fa fa-phone text">+91 95388 84442</i></p>
+              <p><i class="fa fa-envelope text"> info@fututemedico.in</i></p>
             </div>
           </div>
         </div>
