@@ -352,36 +352,25 @@
         <div class="space">
           <div class="row">
             <div class="col-lg-6" style="border: 1px solid black">
-
               <h5>Student Predection</h5>
               <button id="myBtn">Click here for Student Predection</button>
 
               <div id="myModal" class="modal">
                 <!-- Modal content -->
-                <div
-                  class="modal-content"
-                  style="width: 540px; margin-left: 202px; margin-top: 100px"
-                >
+                <div class="modal-content modal-home">
                   <span class="close">&times;</span>
-
-               
                     <form method="POST" id="prediction-form" >
-
                     <div class="form-group">
                       <label for="needRank">select categary</label>
-                      <!-- <input type="text"  value="" name="category" placeholder="category" /> -->
                       <select name="category" id="category"  class="select-category-list">
                         <option value="mbbs">MBBS</option>
                         <option value="mds">MDS</option>
-                        <option value="bds">BDS</option>
-                        
+                        <option value="bds">BDS</option> 
                       </select>
                     </div>
 
                     <div class="form-group">
                       <label for="stateName"> Select state</label>
-                      <!-- <input type="text"   value="" name="state" placeholder="state" /> -->
-        
                       <select name="state" id="state" class="select-state-list">
                         <option value="andhra pradesh">Andhra Pradesh</option>
                         <option value="arunachal pradesh">Arunachal Pradesh</option>
@@ -420,42 +409,36 @@
                         <option value="west bengal">West Bengal</option>
                         <option value="bihar">Bihar</option>
                       </select>
-
                     </div>
-
-
 
                     <div class="form-group">
                       <label for="needRank">Enter city name </label>
                       <input type="text"  name="city" value="" placeholder="city" />
                     </div>
 
-
                     <div class="form-group">
                       <label for="needRank">Enter budget </label>
                       <input type="text"   name="budget" value="" placeholder="budget" />
-                    </div>
-                     <!-- Trigger/Open The Modal -->
-
-                    
-                     <input type="button" name="submit" value="Predict" onclick="getData()" />
-                    <!-- <button id="nextBtn">NEXT</button> -->
+                    </div> 
+                  <input type="button" name="submit" value="Predict" onclick="getData()" />
                   </form>
 
-                  <!-- <button onclick="myFunction()">Click Me</button> -->
+                  <!-- prediction table after clicking on submit button -->
                   <div id="myDIV" style="display: none">
-                  <table id="example" class="table table-striped table-bordered" style="width:100%">
+                  <table id="studentptr" class="table table-striped table-bordered" style="width:100%">
                   <thead>
                   <tr>
-                    <th>State</th>
-                    <th>Amount</th>
                     <th>College Name</th>
+                    <th>Amount</th>
+                    <th>Address</th>
+                    <th>Bond</th>
+                   
                     </tr>
                    </thead>
-                   <tbody>
-                  </tbody>
+                   <tbody> </tbody>
                   </table>
                 </div>
+                 <!----prediction table----->
                   
                   </div>  
                 </div>
