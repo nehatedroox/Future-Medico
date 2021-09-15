@@ -235,3 +235,19 @@ img {
 .study-material {
   padding-top: 50px;
 }
+
+.select-state-list{
+    color: var(--gray-dark);
+    margin-left: 50px;
+    width: 358px;
+    height: 40px;
+    padding: 10px;
+}
+
+.select-category-list{
+  color: var(--gray-dark);
+  margin-left: 22px;
+  width: 358px;
+  height: 40px;
+  padding: 10px;
+}

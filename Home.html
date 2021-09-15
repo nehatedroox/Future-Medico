@@ -29,6 +29,7 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="js/index.js"></script>
     </head>
 
     <body>
@@ -121,7 +122,8 @@
           <div class="autocom-box">
             <!-- here list are inserted from javascript -->
           </div>
-          <div class="icon"><i class="fas fa-search"></i></div>
+          <div class="icon"><i class="fa fa-search"></i></div>
+        
         </div>
       </div>
       <script src="js/suggestions.js"></script>
@@ -288,7 +290,8 @@
               <h6 class="sub-t">M. S. Ramaiah Medical College</h6>
             </div>
             <div class="col-lg-4">
-              <img src="assets/img/home/bgs.png" width="100%" />
+              <a href="bgs-college.html">
+              <img src="assets/img/home/bgs.png" width="100%" /></a>
               <h6 class="sub-t">BGS Global Institute of Medical Sciences</h6>
             </div>
             <div class="col-lg-4">
@@ -298,6 +301,7 @@
           </div>
           <div class="row">
             <div class="col-lg-4">
+             
               <img src="assets/img/home/bangalore medical college.png" width="100%"/>
               <h6 class="sub-t">Bangalore Medical College & Research Institute</h6>
             </div>
@@ -306,7 +310,8 @@
               <h6 class="sub-t">Kempegowda Institute of Medical Science</h6>
             </div>
             <div class="col-lg-4">
-              <img src="assets/img/home/dr.ambedkar.png" width="100%" />
+              <a href="Ambedkar.html">
+              <img src="assets/img/home/dr.ambedkar.png" width="100%" /></a>
               <h6 class="sub-t">Dr. Ambedkar Medical College</h6>
             </div>
           </div>
@@ -354,37 +359,109 @@
                 <!-- Modal content -->
                 <div
                   class="modal-content"
-                  style="width: 540px; margin-left: 202px; margin-top: 195px"
+                  style="width: 540px; margin-left: 202px; margin-top: 100px"
                 >
                   <span class="close">&times;</span>
 
-                  <form id="my-form">
+               
+                    <form method="POST" id="prediction-form" >
+
                     <div class="form-group">
-                      <label for="stateName"> Enter state</label>
-                      <input type="text" id="stateName" name="stateName" />
+                      <label for="needRank">select categary</label>
+                      <!-- <input type="text"  value="" name="category" placeholder="category" /> -->
+                      <select name="category" id="category"  class="select-category-list">
+                        <option value="mbbs">MBBS</option>
+                        <option value="mds">MDS</option>
+                        <option value="bds">BDS</option>
+                        
+                      </select>
                     </div>
 
                     <div class="form-group">
-                      <label for="needRank">Enter Need Rank</label>
-                      <input type="text" id="needRank" name="needRank" />
+                      <label for="stateName"> Select state</label>
+                      <!-- <input type="text"   value="" name="state" placeholder="state" /> -->
+        
+                      <select name="state" id="state" class="select-state-list">
+                        <option value="andhra pradesh">Andhra Pradesh</option>
+                        <option value="arunachal pradesh">Arunachal Pradesh</option>
+                        <option value="assam">Assam</option>
+                        <option value="bihar">Bihar</option>
+                        
+                        <option value="chhattisgarh">Chhattisgarh</option>
+                        <option value="goa">Goa</option>
+                        <option value="gujarat">Gujarat</option>
+                        <option value="haryana">Haryana</option>
+                        
+                        <option value="himachal pradesh">Himachal Pradesh</option>
+                        <option value="jharkhand">Jharkhand</option>
+                        <option value="karnataka">Karnataka</option>
+                        <option value="kerala">Kerala</option>
+                        
+                        
+                        <option value="madhya pradesh">Madhya Pradesh</option>
+                        <option value="maharashtra	">Maharashtra</option>
+                        <option value="manipur">Manipur</option>
+                        <option value="meghalaya">Meghalaya</option>
+                        
+                        <option value="mizoram">Mizoram</option>
+                        <option value="nagaland">Nagaland</option>
+                        <option value="odisha">Odisha</option>
+                        <option value="punjab">Punjab</option>
+                        
+                        <option value="rajasthan">Rajasthan</option>
+                        <option value="sikkim">Sikkim</option>
+                        <option value="tamil nadu">Tamil Nadu</option>
+                        <option value="telangana">Telangana</option>
+                        
+                        <option value="tripura">Tripura</option>
+                        <option value="uttar pradesh">Uttar Pradesh</option>
+                        <option value="uttarakhand">Uttarakhand</option>
+                        <option value="west bengal">West Bengal</option>
+                        <option value="bihar">Bihar</option>
+                      </select>
+
                     </div>
 
+
+
                     <div class="form-group">
-                      <label for="needRank">Enter Need Percentage </label>
-                      <input type="text" id="per" name="per" />
+                      <label for="needRank">Enter city name </label>
+                      <input type="text"  name="city" value="" placeholder="city" />
+                    </div>
+
+
+                    <div class="form-group">
+                      <label for="needRank">Enter budget </label>
+                      <input type="text"   name="budget" value="" placeholder="budget" />
                     </div>
                      <!-- Trigger/Open The Modal -->
-                    <button id="nextBtn">NEXT</button>
+
+                    
+                     <input type="button" name="submit" value="Predict" onclick="getData()" />
+                    <!-- <button id="nextBtn">NEXT</button> -->
                   </form>
+
+                  <!-- <button onclick="myFunction()">Click Me</button> -->
+                  <div id="myDIV" style="display: none">
+                  <table id="example" class="table table-striped table-bordered" style="width:100%">
+                  <thead>
+                  <tr>
+                    <th>State</th>
+                    <th>Amount</th>
+                    <th>College Name</th>
+                    </tr>
+                   </thead>
+                   <tbody>
+                  </tbody>
+                  </table>
+                </div>
+                  
                   </div>  
                 </div>
                 <script src="js/modal.js"></script>
               </div>
              
-          
-            
-
-
+  <!-- -------------------------------------------------------------------------------------------------- -->
             <div class="col-lg-6">
               <h5 class="sub-h">Why Future Medico</h5>
               <p>
