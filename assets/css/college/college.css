@@ -691,3 +691,29 @@ tr:nth-child(even) {
   width: 36%;
   padding-left: 50px;
 }
+
+.bd-clg-bgs {
+  text-align: center;
+  font-size: 13px;
+  color: #000;
+}
+
+.leftcolumn-for-bgs-clg {
+  float: left;
+  width: 50%;
+}
+
+.rightcolumn-for-bgs-clg {
+  float: left;
+  width: 45%;
+  padding-left: 20px;
+}
+
+
+.footer-for-bgs-college{
+    background: #105c96;
+    padding: 20px;
+    width: 1520px;
+    margin-left: -204px;
+
+}

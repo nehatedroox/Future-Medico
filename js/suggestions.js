@@ -2,7 +2,7 @@
  
     { id: 1, title: 'About', collegeName:'MBBS' }, 
     { id: 2, title: 'About2', collegeName:'BDS' },
-    { id: 3, title: 'About3', collegeName:'BAMS' },
+    { id: 3, title: 'bams', collegeName:'BAMS' },
     { id: 4, title: 'About4', collegeName:'BHMS' },
     { id: 5, title: 'About5', collegeName:'MDS' },
     { id: 6, title: 'About6', collegeName:'BSc. Nursing' },
@@ -38,7 +38,7 @@
     { id: 2, title: 'About2', collegeName:'bds' },
 
     //BAMS
-    { id: 3, title: 'About3', collegeName:'bams' },
+    { id: 3, title: 'bams', collegeName:'bams' },
 
     //BHMS
     { id: 4, title: 'About4', collegeName:'bhms' },
@@ -100,11 +100,11 @@
     { id: 14, title: 'About', collegeName:'kasturba college' },
 
     //M. S. Ramaiah Medical College – Bangaluru
-    { id: 17, title: 'About', collegeName:'M.S. ramaiah medical college,bangaluru'},
-    { id: 17, title: 'About', collegeName:'m.s. ramaiah medical college,bangaluru'},
-    { id: 17, title: 'About', collegeName:'m.s. ramaiah'},
-    { id: 17, title: 'About', collegeName:'m.s. ramaiah medical'},
-    { id: 17, title: 'About', collegeName:'m.s. ramaiah medical college'},
+    { id: 17, title: 'ms-ramaiah', collegeName:'M.S. ramaiah medical college,bangaluru'},
+    { id: 17, title: 'ms-ramaiah', collegeName:'m.s. ramaiah medical college,bangaluru'},
+    { id: 17, title: 'ms-ramaiah', collegeName:'m.s. ramaiah'},
+    { id: 17, title: 'ms-ramaiah', collegeName:'m.s. ramaiah medical'},
+    { id: 17, title: 'ms-ramaiah', collegeName:'m.s. ramaiah medical college'},
     
 
     //K. S. Hegde Medical Academy – Mangaluru
@@ -143,7 +143,7 @@
     { id: 24, title: 'About', collegeName:'sapthagiri institute of medical science and research' },
 
     //Recommended Medical Colleges for You
-    { id: 27, title: 'About', collegeName:'M. S. Ramaiah Medical College' },
+    { id: 27, title: 'ms-ramaiah', collegeName:'M. S. Ramaiah Medical College' },
     { id: 28, title: 'About', collegeName:'BGS Global Institute of Medical Sciences' },
     { id: 29, title: 'About', collegeName:'Vydehi Institute of Medical Sciences and Research Centre' },
     { id: 30, title: 'About', collegeName:'Kempegowda institute of medical science' },
@@ -168,13 +168,13 @@
 
 
     //M. S. Ramaiah Medical College
-    { id: 27, title: 'About', collegeName:'m.s. Ramaiah Medical College' },
-    { id: 27, title: 'About', collegeName:'m.s. ramaiah medical college' },
-    { id: 27, title: 'About', collegeName:'m.s. ramaiah medical' },
-    { id: 27, title: 'About', collegeName:'ramaiah medical college' },
-    { id: 27, title: 'About', collegeName:'ramaiah medical' },
-    { id: 27, title: 'About', collegeName:'ramaiah medical college' },
-    { id: 27, title: 'About', collegeName:'ramaiah medical college,banglore' },
+    { id: 27, title: 'ms-ramaiah', collegeName:'m.s. Ramaiah Medical College' },
+    { id: 27, title: 'ms-ramaiah', collegeName:'m.s. ramaiah medical college' },
+    { id: 27, title: 'ms-ramaiah', collegeName:'m.s. ramaiah medical' },
+    { id: 27, title: 'ms-ramaiah', collegeName:'ramaiah medical college' },
+    { id: 27, title: 'ms-ramaiah', collegeName:'ramaiah medical' },
+    { id: 27, title: 'ms-ramaiah', collegeName:'ramaiah medical college' },
+    { id: 27, title: 'ms-ramaiah', collegeName:'ramaiah medical college,banglore' },
 
 
     //BGS Global Institute of Medical Sciences

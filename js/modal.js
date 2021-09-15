@@ -1,6 +1,7 @@
 //----------- model-script-added-----------------------//
 
 var modal = document.getElementById("myModal");
+debugger
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
@@ -23,7 +24,17 @@ window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+
+ 
 };
 
 
-
+//function for prediction table-----------
+// function myFunction() {
+//   var x = document.getElementById("myDIV");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
