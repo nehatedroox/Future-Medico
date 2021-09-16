@@ -46,7 +46,7 @@ inputBox.onkeyup = (e) => {
 };
 
 function select(element) {
-  debugger;
+ // debugger;
   let selectData = element.textContent;
   inputBox.value = selectData;
   icon.onclick = () => {

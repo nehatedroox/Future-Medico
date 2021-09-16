@@ -109,6 +109,15 @@ body {
   padding: 5px;
   border-radius: 50px;
 }
+
+@media screen and (max-width: 600px) {
+  .catbg {
+    margin: 10px 80px 10px 80px;
+    padding: 35px 10px 10px 10px;
+  }
+}
+
+
 button {
   background: #F1FCFD;
   color: #000;
@@ -295,3 +304,5 @@ img {
   padding: 10px;
 
 }
+
+
