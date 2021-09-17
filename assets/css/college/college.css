@@ -716,3 +716,41 @@ tr:nth-child(even) {
     width: 1520px;
     margin-left: -204px;
 }
+/* --js-medical-college-css--- */
+
+.leftcolumn-for-jss-clg {   
+  float: left;
+  width: 32%;
+}
+
+.rightcolumn-for-jss-clg {
+  float: left;
+  width: 34%;
+  padding-left: 20px;
+}
+
+.middlecolumn-for-jss-clg{
+ float: left;
+  width: 32%;
+  padding-left: 20px;
+  margin-top:50px;
+
+}
+
+.jss-program-card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  background-color: white;
+  padding: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
