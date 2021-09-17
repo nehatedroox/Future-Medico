@@ -46,7 +46,7 @@ inputBox.onkeyup = (e) => {
 };
 
 function select(element) {
-  debugger;
+ // debugger;
   let selectData = element.textContent;
   inputBox.value = selectData;
   icon.onclick = () => {
@@ -68,4 +68,13 @@ function showSuggestions(list) {
     listData = list.join("");
   }
   suggBox.innerHTML = listData;
+}
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
 }

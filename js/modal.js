@@ -1,7 +1,7 @@
 //----------- model-script-added-----------------------//
 
 var modal = document.getElementById("myModal");
-debugger
+// debugger
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
@@ -17,6 +17,13 @@ btn.onclick = function () {
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
   modal.style.display = "none";
+
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+  var table_ex=$("#studentptr").DataTable();
+  table_ex.clear()
 };
 
 // When the user clicks anywhere outside of the modal, close it
