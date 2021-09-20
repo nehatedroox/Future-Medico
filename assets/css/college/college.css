@@ -762,10 +762,7 @@ tr:nth-child(even) {
   width: 60%;
 }
 
-.leftcolumn-for-st-johns-schloarship {
-  float: left;
-  width: 26%;
-}
+
 
 .middlecolumn-for-st-johns{
   float: left;
@@ -774,8 +771,3 @@ tr:nth-child(even) {
    margin-top:0px;
  }
 
- .rightcolumn-for-st-johns-schloarship {
-  float: left;
-  width: 45%;
-  padding-left: 20px;
-}
