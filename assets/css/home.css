@@ -308,9 +308,10 @@ img {
 }
 
 .more-top-colleges{
-  text-align: right;
-  margin-bottom: -23px;
-  text-decoration: underline;
+    text-align: center;
+    border: 1px solid black;
+    background: #f1fcfd;
+    padding: 5px;
 }
 
 /* -----testimonial---css------ */
@@ -498,17 +499,12 @@ letter-spacing: 1px;
 text-transform: uppercase;
 }
 
-.testimonial4_slide{
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-width: 70%;
-margin: auto;
-padding: 20px;
-position: relative;
-text-align: center;
+.testimonial4_slide {
+    padding: 20px;
+    position: relative;
+    text-align: center;
 }
+
 .testimonial4_slide img {
   top: 0;
   left: 0;
@@ -530,8 +526,8 @@ text-align: center;
 }
 .testimonial4_slide p {
   color: #ffffff;
-  font-size: 20px;
-  line-height: 1.4;
+  font-size: 15px;
+  line-height: 1.5;
   margin: 40px 0 20px 0;
 }
 .testimonial4_slide h4 {
