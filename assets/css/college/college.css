@@ -774,3 +774,8 @@ tr:nth-child(even) {
  }
 
 
+ .leftcolumn-for-rajeev-gandhi {   
+    float: left;
+    margin-left: 16px;
+    width: 32%;
+}
