@@ -419,10 +419,11 @@ table {
 td,th{
   border: 1px solid #dddddd;
   text-align: left;
+  padding: 10px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #e4f2e7;
   padding:10px;
 
 }
@@ -459,7 +460,7 @@ tr:nth-child(even) {
 /* Left column */
 
 .programs-name{
-  margin-left:50px;
+  margin-left:0px;
   padding-bottom: 30px;
 }
 .leftcolumn {   
@@ -495,7 +496,7 @@ tr:nth-child(even) {
    background-color: white;
    padding: 20px;
    margin-top: 20px;
-   margin-left: 10px;
+   margin-left: 0px;
 }
 
 /* Clear floats after the columns */
@@ -525,7 +526,8 @@ tr:nth-child(even) {
 }
 
 .fees-class{
-  padding: 10px 90px 10px 150px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
   
 }
 
