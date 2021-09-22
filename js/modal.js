@@ -1,7 +1,7 @@
 //----------- model-script-added-----------------------//
 
 var modal = document.getElementById("myModal");
-debugger
+// debugger
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
