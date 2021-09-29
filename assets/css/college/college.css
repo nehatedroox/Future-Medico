@@ -779,3 +779,14 @@ tr:nth-child(even) {
     margin-left: 16px;
     width: 32%;
 }
+
+.agm-course {
+  color:#bc2127 ;
+  text-align: left;
+}
+
+.agm-facilities {
+  background-color: white;
+  padding: 5px;
+  border: 3px solid #ADC6F7;
+}
