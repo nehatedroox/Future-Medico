@@ -562,3 +562,10 @@ padding-bottom:50px;
   height: 35px;
 }
 /*---------------------------------Testimonial--close------------------------------*/
+
+
+.md-course {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}

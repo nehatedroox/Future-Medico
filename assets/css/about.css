@@ -1,0 +1,66 @@
+.abt-img {
+	background-image:
+        linear-gradient(rgb(0 0 0 / 41%), rgb(102 113 143 / 40%)),url(../img/about/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.abt-hd {
+	background: linear-gradient(114.67deg, rgba(255, 255, 255, 0.4) 16.6%, rgba(255, 255, 255, 0.1) 85.73%);
+	backdrop-filter: blur(20px);
+	/* Note: backdrop-filter has minimal browser support */
+
+	border-radius: 40px;
+	padding: 20px 0px 20px 50px;
+	margin: 200px 0px 150px 0px;
+
+}
+.abt-cnt {
+	color: white;
+	font-weight: bold;
+}
+.abt-cnt1 {
+	color: black;
+}
+
+.what-img {
+	background-image: url(../img/about/what.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 50px 0px;
+}
+
+.abt-h1 {
+	color: #BC1E25;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 45px;
+	text-align: justify;
+}
+.abt-para {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 21px;
+	letter-spacing: 1px;
+	text-align: justify;
+	color: #FFFFFF;
+}
+
+.abt-para1 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 21px;
+	letter-spacing: 1px;
+	text-align: justify;
+	color: #000;
+}
+.why {
+	background: linear-gradient(180deg, #E9F4FF 0%, #F4F9FF 59.42%, #FFFFFF 128.52%);
+	padding: 50px 0px;
+
+}
