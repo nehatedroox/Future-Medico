@@ -1,6 +1,6 @@
   let suggestions =[ 
  
-    { id: 1, title: 'About', collegeName:'MBBS' }, 
+    { id: 1, title: 'mbbs', collegeName:'MBBS' }, 
     { id: 2, title: 'About2', collegeName:'BDS' },
     { id: 3, title: 'bams', collegeName:'BAMS' },
     { id: 4, title: 'About4', collegeName:'BHMS' },
@@ -32,7 +32,7 @@
     { id: 26, title: 'About', collegeName:'Akash Medical College' },
     
     //MBBS
-    { id: 1, title: 'About', collegeName:'mbbs' }, 
+    { id: 1, title: 'mbbs', collegeName:'mbbs' }, 
 
     //BDS
     { id: 2, title: 'About2', collegeName:'bds' },
