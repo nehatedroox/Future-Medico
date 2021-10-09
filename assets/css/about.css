@@ -41,6 +41,7 @@
 	text-align: justify;
 }
 .abt-para {
+	font-family: Helvetica;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 15px;
@@ -51,6 +52,7 @@
 }
 
 .abt-para1 {
+	font-family: Helvetica;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 13px;
@@ -82,6 +84,7 @@
 	letter-spacing: 1px;
 	text-align: center;
 	color: #000;
+	font-family: Helvetica;
 }
 
 .hr {
@@ -169,8 +172,36 @@
 	padding: 25px 0px;
 }
 .neet-c {
-	font-family: roboto;
-	font-size: 18px;
-	padding-top: 15px;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #000;
+    font-family: Helvetica;
+ }
+
+ .neet-c1 {
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-family: Helvetica;
+    font-size: 20px;
+ }
+
+ .space1 {
+ 	padding: 100px 0px 350px 0px;
+ }
+
+.vikas-c {
+	font-style: italic;
+	font-size: 19px;
+	color: #105C96;
+	text-align: center;
+	font-weight: bold;
 }
 
+.about-img {
+	background-image:url(../img/about/about.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 110px;
+}

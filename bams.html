@@ -70,7 +70,7 @@
                     <h2 class="headings" id="o">OVER VIEW</h2>
                     <p>BAMS or Bachelor of Ayurveda Medical & Surgery is one of the trending in-demand courses bringing an array of radical opportunities in the field of medical science. BAMS is a five years integrated undergraduate degree course for students aspiring to explore healthcare through traditional ayurvedic medicine and surgical procedures. The course duration is 5 and a half years including a mandatory internship for one year in order to complete the degree. 
                      Studying BAMS encompasses a wide variety of courses that are taught to the students such as physiology, pharmacology, rules & principles of Surgery, ENT, Herbal Science, Legal Drug and more.<br> 
-                     Ayurveda Medical & Surgery is one of the popular courses to study in western nations. People have recently been valuing the natural healing and medicinal properties with minimal side effects in ayurvedic treatment. Recently, Ayurvedic students are also given the liberty and opportunity to perform surgery as mentioned in Vedic books. The career opportunity remains 
+                     Ayurveda Medical & Surgery is one of the popular courses to study in western nations. People have recently been valuing the natural healing and medicinal properties with minimal side effects in ayurvedic treatment. Recently, Ayurvedic students are also given the liberty and opportunity to perform surgery as mentioned in Vedic books. The career opportunity remains. 
                     </p>
                     <img src="assets/img/course/bams/banner.png" width="100%">
                 </div>
@@ -329,19 +329,63 @@
                 </div>
     
     
-                <div class="space">
-                    <div class="row course">
-                        <div class="col-lg-3">
-                            <img src="assets/img/course/mbbs/question 1.png">
-                        </div>
-                        <div class="col-lg-6 course-align">
-                            <h5>Do You Want to  know more about Courses and Facilities?</h5>
-                        </div>
-                        <div class="col-lg-3 course-align">
-                            <button class="ask-btn" onclick="test()">Ask Now</button>
-                        </div>
-                    </div>
+                <!-- ASK NOW BUTTON START ------>
+                <div class="container">
+        <div class="space">
+          <div class="row course">
+            <div class="col-lg-3">
+              <img src="assets/img/course/mbbs/question 1.png">
+            </div>
+            <div class="col-lg-6 course-align">
+              <h5>Do You Want to  know more about Courses and Facilities?</h5>
+            </div>
+            <div class="col-lg-3 course-align">
+              <button class="ask-btn" onclick="test()">Ask Now</button>
+
+              <!--after click button form will open------------------------->
+              <div>
+                <div id="myaskId" class="askModal">
+                  <!-- Modal content open-->
+                  <div class="askModal-content" style="width: 540px;margin: 200px 27px 73px 500px;" >
+                    <!-- Modal content -->
+                    <!-- <span class="close">�</span> -->
+                    <span class="close glyphicon glyphicon-remove"  style="font-size: 12px; font-weight: 0px;"></span>
+                    <form action="https://formspree.io/f/mqkwgzpl"method="POST"id="my-form">
+                      <table  class="form-table" style="border: none;">
+                        <tr>
+                          <td class="form-td">Enter Name</td>
+                          <td class="form-td"> <input type="text" id="name" name="name" /></td>
+                        </tr>
+                        <tr>
+                          <td class="form-td">Enter Email</td>
+                          <td class="form-td"> <input type="text" id="email" name="email" /></td>
+                        </tr>
+                        <tr>
+                          <td class="form-td">Enter PhoneNumber</td>
+                          <td class="form-td"> <input type="text" id="phnumber" name="phnumber" /></td>
+                        </tr>
+                        <tr>
+                          <td class="form-td">Enter Course-Name</td>
+                          <td class="form-td"> <input type="text" id="course" name="course" /></td>
+                        </tr>
+                        <tr>
+                          <td class="form-td">Messages</td>
+                          <td class="form-td"><textarea name="massage" id="massage" cols="21" rows="3" placeholder="Message...." ></textarea></td> 
+                        </tr>
+                        <tr></tr>
+                      </table>
+                      <button type="submit" style="margin-top:5px;">Submit</button>
+                    </form>
+                  </div>  
                 </div>
+                <script src="js/askModal.js"></script>
+              </div>
+              <!-- Modal content end-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ASK NOW BUTTON END ------>
     
     
                 <div class="space">
@@ -499,40 +543,50 @@
     
     
             <!-- FOOTER START -->
-            <div class="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <h4>TOP COLLEGES</h4>
-                            <a class="text" href="">NIMHNS</a><br>
-                            <a class="text" href="">Kasturba Medical College</a><br>
-                            <a class="text" href="">St. John's Medical College</a><br>
-                            <a class="text" href="">M.S. Ramaiah Medical College</a>
-                        </div>
-                        <div class="col-lg-3">
-                            <h4>QUICK LINKS</h4>
-                            <a class="text" href="">About Us</a><br>
-                            <a class="text" href="">Services</a><br>
-                            <a class="text" href="">FAQ</a><br>
-                            <a class="text" href="">Contact Us</a>
-                        </div>
-                        <div class="col-lg-3">
-                            <h4>SOCIAL MEDIA</h4>
-                            <a href="#" class="fa fa-facebook text"></a>
-                            <a href="#" class="fa fa-linkedin text"></a>
-                            <a href="#" class="fa fa-instagram text"></a>
-                            <a href="#" class="fa fa-quora text"></a>
-                            <a href="#" class="fa fa-youtube text"></a>
-                        </div>
-                        <div class="col-lg-3">
-                            <h4>CONTACT</h4>
-                            <p><i class="fa fa-phone text">+91 95388 84442</i></p>
-                            <p><i class="fa fa-envelope text"> info@fututemedico.in</i></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- FOOTER END -->
+      <div class="footer">
+        <div class="row">
+          <div class="col-lg-1">
+            
+          </div>
+          <div class="col-lg-2">
+            <img src="assets/img/about/footer-logo.png" width="55%">
+          </div>
+          <div class="col-lg-2">
+            <h3 class="foot-h">TOP COURSES</h3>
+            <a class="text" href="topcolleges.html">MBBS Medical Colleges</a><br>
+            <a class="text" href="topcolleges.html">MDS Medical Collegese</a><br>
+            <a class="text" href="topcolleges.html">BDS Medical Colleges</a><br>
+            <a class="text" href="topcolleges.html">BHMS Medical Colleges</a>
+          </div>
+          <div class="col-lg-2">
+            <h3 class="foot-h">QUICK LINKS</h3>
+            <a class="text" href="about.html">About</a><br>
+            <a class="text" href="topcolleges.html">Colleges</a><br>
+            <a class="text" href="service.html">Services</a><br>
+            <a class="text" href="contact.html">Contact Us</a>
+          </div>
+          <div class="col-lg-2">
+            <h3 class="foot-h">SOCIAL MEDIA</h3>
+            <a href="https://www.facebook.com/futuremedico" class="fa fa-facebook text"></a>
+            <a href="https://www.linkedin.com/company/74130416/admin/" class="fa fa-linkedin text"></a>
+            <a href="https://www.instagram.com/futuremedico.in/" class="fa fa-instagram text"></a>
+            <a href="https://www.youtube.com/channel/UC-7k-XZxAd1gYFSHUK7EJog" class="fa fa-youtube text"></a>
+            <a href="https://twitter.com/medico_future" class="fa fa-twitter text"></a>
+          </div>
+          <div class="col-lg-2">
+            <h3 class="foot-h">CONTACT</h3>
+            <p><a href="tel:+91 95388 84442"><i class="fa fa-phone text">+91 95388 84442</i></a></p>
+            <p><a href="mailto:info@futuremedico.in"><i class="fa fa-envelope text"> info@futuremedico.in</i></a></p>
+          </div>
+          <div class="col-lg-1">
+            
+          </div>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <p>Copyright &copy; 2021 All Rights Reserved | FUTURE MEDICO</p>
+      </div>
+      <!-- FOOTER END -->
         </body>
         </html>
     </DOCTYPE>

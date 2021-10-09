@@ -1,0 +1,15 @@
+.service-img {
+	background-image:url(../img/service/service-banner.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	padding: 110px;
+}
+.ser-c {
+	font-style: normal;
+	font-size: 15px;
+	line-height: 21px;
+	text-align: center;
+	color: #000;
+	font-family: Helvetica;
+}
