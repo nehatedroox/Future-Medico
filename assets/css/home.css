@@ -291,7 +291,7 @@ img {
   border: 2px solid black;
 }
 .course-align {
-  padding-top: 27px;
+  padding: 10px;
 }
 .top-clgs {
   background: #3CEACB0F;
@@ -563,6 +563,15 @@ text-transform: uppercase;
     text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+  .testimonial4_slide  {
+    padding: 0px 25px;
+    position: relative;
+    text-align: center;
+}
+}
+
+
 .testimonial4_slide img {
   top: 0;
   left: 0;
@@ -612,7 +621,7 @@ padding-bottom:50px;
 .course-img {
   background-image:url(../img/course/course.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   padding: 95px;
 }
@@ -620,7 +629,90 @@ padding-bottom:50px;
 .college-img {
   background-image:url(../img/college/college.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   padding: 95px;
+}
+
+.course-banner {  
+  text-align: align;
+}
+
+.bams {
+  background-image:url(../img/course/bams/bams.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  padding: 113px;
+}
+
+.bds {
+  background-image:url(../img/course/bds/bds.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  padding: 113px;
+}
+.bhms {
+  background-image:url(../img/course/bhms/bhms.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  padding: 113px;
+}
+.bpharma {
+  background-image:url(../img/course/bpharma/bpharma.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  padding: 113px;
+}
+.bpt {
+  background-image:url(../img/course/bpt/bpt.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  padding: 113px;
+}
+.bscnursing {
+  background-image:url(../img/course/bscnursing/bsc.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  padding: 113px;
+}
+.bums {
+  background-image:url(../img/course/bums/bums.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  padding: 113px;
+}
+.mbbs {
+  background-image:url(../img/course/mbbs/mbbs.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  padding: 113px;
+}
+.md {
+  background-image:url(../img/course/md/md.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  padding: 113px;
+}
+.mds {
+  background-image:url(../img/course/mds/mds.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  padding: 113px;
+}
+.ms {
+  background-image:url(../img/course/ms/ms.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  padding: 113px;
 }

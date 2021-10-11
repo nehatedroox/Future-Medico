@@ -19,30 +19,39 @@
         <link href="assets/css/college/subCollege.css" rel="stylesheet" />
     </head>
     <body>
+        
     	<!-- NAVBAR START -->
-        <div class="container">
-            <div class="topnav">
-                <div class="row">
-                    <div class="col-lg-2">
-                        <img src="assets/img/home/logo1.png" width="50%">
-                    </div>
-                    <div class="col-lg-10">
-                        <a class="active" href="index.html">Home</a>
-                        <a href="about.html">About</a>
-                        <a href="service.html">Services</a>
-                        <a href="course.html">Courses</a>
-                        <a href="topcolleges.html">Top Colleges</a>
-                        <a href="#exam.html">Exams</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="topnav" id="myTopnav">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/img/home/logo1.png" width="60%" />
             </div>
+            <div class="col-lg-8">
+              <a class="active" href="index.html">HOME</a>
+              <a href="about.html">ABOUT</a>
+              <a href="course.html">COURSES</a>
+              <a href="topcolleges.html">TOP COLLEGES</a>
+              <a href="blog.html">BLOGS</a>
+              <a href="contact.html">CONTACT</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+            <div class="col-lg-2 abroad">
+              <p>STUDY ABROAD <i class="fa fa-plane"></i></p>
+            </div>
+          </div>
         </div>
-        <!-- NAVBAR START -->
+      </div>
+      <!-- NAVBAR END -->
 
         <div class="container">
             <div>
-                <img src="assets/img/course/mbbs/mbbs banner1.png" width="100%">
+                <div class="mbbs">
+                    <h2 style="text-align: center;">MBBS</h2>
+                    <h4 style="text-align: center;"><a class="ancr-text">(Bachelor of Medicine and Bachelor of Surgery)</a></h4>
+                </div>
             </div>
             <div class="row space">
                 <div class="col-lg-2 anchor-menu">
@@ -71,15 +80,15 @@
                 <h2 class="headings">REQUISITES</h2>
                 <div class="row reqsts-row">
                     <div class="col-lg-4 reqsts-bg">
-                        <h5>1. Required Education.</h5>
+                        <h4><b>1. Required Education</b></h4>
                         <p>An MBBS degree is a professional degree admitted to those who have passed coursework in the fields of medicine and/or surgery from an accredited medical school.</p>
                     </div>
                     <div class="col-lg-4 reqsts-bg">
-                        <h5>2. Projected Job Growth.</h5>
+                        <h4><b>2. Projected Job Growth</b></h4>
                         <p>Obtaining a degree in medicine allows for the recipient to continue into specialty training with the end goal of securing a license to practicewithin their respective jurisdiction.</p>
                     </div>
                     <div class="col-lg-4 reqsts-bg">
-                        <h5>3. Median Salary</h5>
+                        <h4><b>3. Median Salary</b></h4>
                         <p>The initial salary of a medical graduate doctor may be Rs. 20,000 to Rs. 35,000 per month. After getting the experience and good hands-on  experience in this field.</p>
                     </div>
                 </div>
@@ -111,12 +120,12 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 prgrm">
-                        <h4>Program Details</h4>
-                        <p>Doctors have the most demanding education and training requirements. They typically need a bachelor’s degree from  a four-years medical school and , depending on their specially, three to seven years of additional training.</p>
+                        <h4><b>Program Details</b></h4>
+                        <p class="para-c">Doctors have the most demanding education and training requirements. They typically need a bachelor’s degree from  a four-years medical school and , depending on their specially, three to seven years of additional training.</p>
                     </div>
                     <div class="col-lg-6 prgrm">
                         <h4>Online Degrees</h4>
-                        <p>While becoming a doctor still requires traditional on-campus medical school, one can choose to study medicine online and earn an undergraduate degree or pursue other positions within the healthcare field.</p>
+                        <p class="para-c">While becoming a doctor still requires traditional on-campus medical school, one can choose to study medicine online and earn an undergraduate degree or pursue other positions within the healthcare field.</p>
                     </div>
                 </div>
             </div>
@@ -157,7 +166,7 @@
                         <img src="assets/img/course/mbbs/question 1.png">
                     </div>
                     <div class="col-lg-6 course-align">
-                        <h5>Do You Want to  know more about Courses and Facilities?</h5>
+                        <h4>Do You Want to  know more about Courses and Facilities?</h4>
                     </div>
                     <div class="col-lg-3 course-align">
                     <button class="ask-btn" onclick="test()">Ask Now</button>
@@ -221,7 +230,7 @@
                     <div class="col-lg-6">
                         <h4>MBBS Admission Procedure</h4>
                         <p>In india initiates with the national level of examination. This exam is the only way to get MBBS Admission in india. After clearing the entrance examination, a merit list will be prepared based on the score secured in the entrance examination.</p>
-                        <h5>Skill Sets Required </h5>
+                        <h5><b>Skill Sets Required </b></h5>
                         <ul>
                             <li>Ability to work with a team</li>
                             <li>Deep interest in being a helping professional</li>
@@ -356,7 +365,7 @@
             </div>
             <div class="space">
                 <div>
-                    <h2 class="headings">FAQ</h2>
+                    <h2 class="headings" id="faq">FAQ</h2>
                 </div>
                 <button class="accordion">What is the fee for MBBS in India?</button>
                 <div class="panel">

@@ -190,6 +190,17 @@ button {
   display: inline;
   margin-right: 8px;
 }
+
+@media screen and (max-width: 600px) {
+  #tabs #tab-container-1-nav li {
+    float: left;
+    display: inline;
+    margin-right: 8px;
+    width: 90%;
+  }
+}
+
+
 #tabs ul {
   list-style: none;
 }
@@ -312,7 +323,7 @@ div#tab-container-1 {
   line-height: 36px;
   color: #000000;
   margin: 10px 10px 10px 10px;
-  width: 45%;
+  width: 95%;
   background-color: white;
   font-weight: 100;
   border: 1px solid #f6d8d8;
